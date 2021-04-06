@@ -12,6 +12,16 @@ function chillHop() {
       id: uuidv4(),
       active: true,
     },
+    {
+      name: "Watercolor",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/25a182a6a21588b8f7ad5605ba1118a8ea61bdc2-300x300.jpg",
+      artist: "Sleepy Fish",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=3522",
+      color: ["#8FD1E4", "#1E3252"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 

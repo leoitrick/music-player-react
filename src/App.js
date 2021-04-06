@@ -10,7 +10,7 @@ import data from "./util";
 function App() {
   //state - getting the songs from util.js file
   const [songs, setSongs] = useState(data());
-  const [currentSong, setCurrentSong] = useState(songs[0]);
+  const [currentSong, setCurrentSong] = useState(songs[1]);
   const [isPlaying, setIsPlaying] = useState(false);
 
   return (
