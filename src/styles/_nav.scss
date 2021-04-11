@@ -1,6 +1,6 @@
 nav {
-  //   padding-top: 2rem;
-  min-width: 10vh;
+  // padding-top: 2rem;
+  min-height: 10vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -19,7 +19,7 @@ nav {
   }
 }
 
-@media screen and (media-width: 768px) {
+@media screen and (max-width: 768px) {
   nav {
     button {
       z-index: 10;
